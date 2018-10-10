@@ -1,0 +1,113 @@
+
+<!doctype html>
+<html class="no-js" lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index | Foundation for Sites</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <main class="page-main">
+      <h1 class="page-main__title">Тестовое задание</h1>
+      <div class="page-main__content">
+        <section class="page-main__comments">
+          <div class="comments">
+              <h2 class="comments__title">Отзывы</h2>
+              <!-- Slider main container -->
+              <div class="comments__swiper-container swiper-container">
+                  <!-- Additional required wrapper -->
+                  <div class="comments__swiper-wrapper swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="comments__swiper-slide swiper-slide">
+                          <div class="one-comment">
+                              <img class="one-comment__photo" src="assets/img/photo-1.png" alt="Влад Гончаров" width="82" height="82">   
+                              <h3 class="one-comment__name">Влад Гончаров</h3>
+                              <a class="one-comment__link" href="vk.com/ex3der">vk.com/ex3der</a>
+                              <div class="one-comment__text">Предсознательное иллюстрирует девиантный филогенез. Восприятие, на первый взгляд, отчуждает генезис. Филогенез, например, слабопроницаем. Действие притягивает депрессивный инсайт.</div>
+                          </div>
+                          
+                      </div>
+                      <div class="comments__swiper-slide swiper-slide">
+                          <div class="one-comment">
+                              <img class="one-comment__photo" src="assets/img/photo-2.png" alt="Иван Мирошников" width="82" height="82">   
+                              <h3 class="one-comment__name">Иван Мирошников</h3>
+                              <a class="one-comment__link" href="vk.com/id16362672">vk.com/id16362672</a>
+                              <div class="one-comment__text">Предсознательное иллюстрирует девиантный филогенез. Восприятие, на первый взгляд, отчуждает генезис. Филогенез, например, слабопроницаем. Действие притягивает депрессивный инсайт.</div>
+                          </div>
+                          
+                      </div>
+                      <div class="comments__swiper-slide swiper-slide">
+                          <div class="one-comment">
+                              <img class="one-comment__photo" src="assets/img/photo-3.png" alt="Алексей Волков" width="82" height="82">   
+                              <h3 class="one-comment__name">Алексей Волков</h3>
+                              <a class="one-comment__link" href="vk.com/asgalex">vk.com/asgalex</a>
+                              <div class="one-comment__text">Предсознательное иллюстрирует девиантный филогенез. Восприятие, на первый взгляд, отчуждает генезис. Филогенез, например, слабопроницаем. Действие притягивает депрессивный инсайт.</div>
+                          </div>
+                          
+                      </div>
+                  </div>
+                  <!-- If we need pagination -->
+                  <!--<div class="comments__swiper-pagination"></div>-->
+          
+                  <!-- If we need navigation buttons -->
+          
+              </div>
+              <div class="comments__swiper-button comments__swiper-button_prev">
+                  <svg class="icon-right" width="49" height="27">
+                      <use xlink:href="assets/img/icons.svg#right-arrow"></use>
+                  </svg>
+              </div>
+              <div class="comments__swiper-button comments__swiper-button_next">
+                  <svg class="icon-right" width="49" height="27">
+                      <use xlink:href="assets/img/icons.svg#right-arrow"></use>
+                  </svg>
+              </div>
+          </div>    </section>
+        <section class="page-main__registration">
+          <form class="regform JQValidation" id="regform" action="" method="post" enctype="multipart/form-data" autocomplete="off">
+              <fieldset class="regform__item regform__item_name">
+                  <input type="text" id="regformName" class="regform__input regform__input_name js-field" name="name">
+                  <label for="regform-name" class="regform__label regform__label_none js-label">Ваше имя</label>
+              </fieldset>
+              <fieldset class="regform__item regform__item_phone">
+                  <input type="tel" id="regform-phone" class="regform__input regform__input_phone js-field" name="phone" required>
+                  <label for="regform-phone" class="regform__label regform__label_required js-label">Ваш телефон</label>
+              </fieldset>
+              <fieldset class="regform__item regform__item_email">
+                  <input type="text" id="regform-email" class="regform__input regform__input_email js-field" name="email" required>
+                  <label for="regform-email" class="regform__label regform__label_required js-label">Ваш email</label>
+              </fieldset>
+              <fieldset class="regform__item regform__item_msg">
+                  <textarea class="regform__input regform__input_msg js-field" name="message" maxlength="140"></textarea>
+                  <label for="regform-name" class="regform__label regform__label_none js-label">Сообщение</label>
+              </fieldset>
+              <fieldset class="regform__item regform__item_agree">
+                  <input type="checkbox" id="regform-agree" class="regform__agree" name="regform_agree" required>
+                  <label for="regform-agree" class="regform__label regform__label_agree">Согласен на обработку персональных данных</label>
+              </fieldset>
+              <fieldset class="regform__item regform__item_upload">
+                  <input type="file" id="upload-file" class="regform__upload js-upload" name="filename">
+                  <label for="upload-file" class="regform__label regform__label_upload js-label-upload">Прикрепить файл</label>
+              </fieldset>
+              <fieldset class="regform__item regform__item_submit">
+                  <button type="submit" class="btn regform__submit ">Отправить</button>
+              </fieldset>
+              <div class="regform__item regform__item_annotation">
+                  <div class="regform__annotation">* обязательные для заполнения</div>
+                  <div class="regform__annotation">Макс размер файла 10 Мб</div>
+              </div>
+          </form>    </section>
+      </div>
+    </main>
+    
+    
+    <script src="assets/js/app.js"></script>
+  
+  </body>
+</html>
